@@ -22,3 +22,15 @@ $ git merge upstream/unmergeable-branch
 Auto-merging attendees_and_learners.rst
 CONFLICT (content): Merge conflict in attendees_and_learners.rst
 Automatic merge failed; fix conflicts and then commit the result.
+
+git status
+# On branch branch-b
+# You have unmerged paths.
+#   (fix conflicts and run "git commit")
+#
+# Unmerged paths:
+#   (use "git add ..." to mark resolution)
+#
+# both modified:      planets.md
+#
+no changes added to commit (use "git add" and/or "git commit -a")
